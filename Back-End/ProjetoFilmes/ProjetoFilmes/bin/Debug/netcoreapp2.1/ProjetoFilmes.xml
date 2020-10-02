@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjetoFilmes</name>
+    </assembly>
+    <members>
+        <member name="F:ProjetoFilmes.Controllers.FilmesController._filmeRepository">
+            <summary>
+            Cria um objeto que recebe os métodos estabelecidos na interface
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.FilmesController.#ctor">
+            <summary>
+            Instancia este objeto com as implementações feitas no repositório
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.FilmesController.Listar">
+            <summary>
+            Lista todos os filmes
+            </summary>
+            <returns>Retorna uma lista de filmes</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.FilmesController.ListarPorId(System.Int32)">
+            <summary>
+            Busca um filme através do ID
+            </summary>
+            <param name="id">ID do filme que será buscado</param>
+            <returns>Retorna um filme buscado</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.FilmesController.Cadastrar(ProjetoFilmes.Domains.Filmes)">
+            <summary>
+            Cadastra um novo filme
+            </summary>
+            <param name="novoFilme"></param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.FilmesController.Atualizar(System.Int32,ProjetoFilmes.Domains.Filmes)">
+            <summary>
+            Atualiza um filme existente
+            </summary>
+            <param name="id">ID do filme que será atualizado</param>
+            <param name="filmeAtualizado">Objeto com as novas informações</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.FilmesController.Deletar(System.Int32)">
+            <summary>
+            Deleta um filme existente
+            </summary>
+            <param name="id">ID do filme que será deletado</param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="F:ProjetoFilmes.Controllers.GenerosController._generoRepository">
+            <summary>
+            Cria um objeto que recebe os métodos estabelecidos na interface
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.GenerosController.#ctor">
+            <summary>
+            Instancia este objeto com as implementações feitas no repositório
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.GenerosController.Listar">
+            <summary>
+            Lista todos os gêneros
+            </summary>
+            <returns>Retorna uma lista de gêneros</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.GenerosController.ListarPorId(System.Int32)">
+            <summary>
+            Busca um gênero através do ID
+            </summary>
+            <param name="id">ID do gênero que será buscado</param>
+            <returns>Retorna um gênero buscado</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.GenerosController.Cadastrar(ProjetoFilmes.Domains.Generos)">
+            <summary>
+            Cadastra um novo gênero
+            </summary>
+            <param name="novoGenero">Objeto com as informações que serão cadastradas</param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.GenerosController.Atualizar(System.Int32,ProjetoFilmes.Domains.Generos)">
+            <summary>
+            Atualiza um gênero existente
+            </summary>
+            <param name="id">ID do gênero que será atualizado</param>
+            <param name="generoAtualizado">Objeto com as novas informações</param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.GenerosController.Deletar(System.Int32)">
+            <summary>
+            Deleta um gênero existente
+            </summary>
+            <param name="id">ID do gênero que será deletado</param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="F:ProjetoFilmes.Controllers.LoginController._usuarioRepository">
+            <summary>
+            Cria um objeto que recebe os métodos estabelecidos na interface
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.LoginController.#ctor">
+            <summary>
+            Instancia este objeto com as implementações feitas no repositório
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Controllers.LoginController.Login(ProjetoFilmes.ViewModels.LoginViewModel)">
+            <summary>
+            Valida o usuário
+            </summary>
+            <param name="login">Objeto com as informações de login</param>
+            <returns>Retorna um usuário autenticado</returns>
+        </member>
+        <member name="T:ProjetoFilmes.Interfaces.IFilmeRepository">
+            <summary>
+            Interface responsável pelo repositório de filmes
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IFilmeRepository.Listar">
+            <summary>
+            Lista todos os filmes
+            </summary>
+            <returns>Retorna uma lista de filmes</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IFilmeRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um filme através do seu ID
+            </summary>
+            <param name="idBuscar">ID do filme que será buscado</param>
+            <returns>Retorna um filme buscado</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IFilmeRepository.Cadastrar(ProjetoFilmes.Domains.Filmes)">
+            <summary>
+            Cadastra um novo filme
+            </summary>
+            <param name="novoFilme">Objeto com as informações que serão cadastradas</param>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IFilmeRepository.Atualizar(System.Int32,ProjetoFilmes.Domains.Filmes)">
+            <summary>
+            Atualiza um filme existente
+            </summary>
+            <param name="idAtualizar">ID do filme que será atualizado</param>
+            <param name="filmeAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IFilmeRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um filme existente
+            </summary>
+            <param name="idDeletar">ID do filme que será deletado</param>
+        </member>
+        <member name="T:ProjetoFilmes.Interfaces.IGeneroRepository">
+            <summary>
+            Interface responsável pelo repositório de gêneros
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IGeneroRepository.Listar">
+            <summary>
+            Lista todos os gêneros
+            </summary>
+            <returns>Retorna uma lista de gêneros</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IGeneroRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um gênero através do seu ID
+            </summary>
+            <param name="idBuscar">ID do gênero que será buscado</param>
+            <returns>Retorna um gênero buscado</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IGeneroRepository.Cadastrar(ProjetoFilmes.Domains.Generos)">
+            <summary>
+            Cadastra um novo gênero
+            </summary>
+            <param name="novoGenero">Objeto com as informações que serão cadastradas</param>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IGeneroRepository.Atualizar(System.Int32,ProjetoFilmes.Domains.Generos)">
+            <summary>
+            Atualiza um gênero existente
+            </summary>
+            <param name="idAtualizar">ID do gênero que será atualizado</param>
+            <param name="generoAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IGeneroRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um gênero existente
+            </summary>
+            <param name="idDeletar">ID do gênero que será deletado</param>
+        </member>
+        <member name="T:ProjetoFilmes.Interfaces.IUsuarioRepository">
+            <summary>
+            Interface responsável pelo repositório de usuários
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Interfaces.IUsuarioRepository.Login(System.String,System.String)">
+            <summary>
+            Valida o usuário
+            </summary>
+            <param name="email">E-mail do usuário</param>
+            <param name="senha">Senha do usuário</param>
+            <returns>Retorna um usuário autenticado</returns>
+        </member>
+        <member name="T:ProjetoFilmes.Repositories.FilmeRepository">
+            <summary>
+            Repositório que implementa os métodos de filmes
+            </summary>
+        </member>
+        <member name="F:ProjetoFilmes.Repositories.FilmeRepository.ctx">
+            <summary>
+            Instancia um novo contexto para utilizar os métodos do EF Core
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.FilmeRepository.Atualizar(System.Int32,ProjetoFilmes.Domains.Filmes)">
+            <summary>
+            Atualiza um filme existente
+            </summary>
+            <param name="idAtualizar">ID do filme que será atualizado</param>
+            <param name="filmeAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.FilmeRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um filme através do seu ID
+            </summary>
+            <param name="idBuscar">ID do filme que será buscado</param>
+            <returns>Retorna um filme buscado</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.FilmeRepository.Cadastrar(ProjetoFilmes.Domains.Filmes)">
+            <summary>
+            Cadastra um novo filme
+            </summary>
+            <param name="novoFilme">Objeto com as informações que serão cadastradas</param>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.FilmeRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um filme existente
+            </summary>
+            <param name="idDeletar">ID do filme que será deletado</param>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.FilmeRepository.Listar">
+            <summary>
+            Lista todos os filmes
+            </summary>
+            <returns>Retorna uma lista de filmes</returns>
+        </member>
+        <member name="T:ProjetoFilmes.Repositories.GeneroRepository">
+            <summary>
+            Repositório que implementa os métodos de gêneros
+            </summary>
+        </member>
+        <member name="F:ProjetoFilmes.Repositories.GeneroRepository.ctx">
+            <summary>
+            Instancia um novo contexto para utilizar os métodos do EF Core
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.GeneroRepository.Atualizar(System.Int32,ProjetoFilmes.Domains.Generos)">
+            <summary>
+            Atualiza um gênero existente
+            </summary>
+            <param name="idAtualizar">ID do gênero que será atualizado</param>
+            <param name="generoAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.GeneroRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um gênero através do seu ID
+            </summary>
+            <param name="idBuscar">ID do gênero que será buscado</param>
+            <returns>Retorna um gênero buscado</returns>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.GeneroRepository.Cadastrar(ProjetoFilmes.Domains.Generos)">
+            <summary>
+            Cadastra um novo gênero
+            </summary>
+            <param name="novoGenero">Objeto com as informações que serão cadastradas</param>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.GeneroRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um gênero existente
+            </summary>
+            <param name="idDeletar">ID do gênero que será deletado</param>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.GeneroRepository.Listar">
+            <summary>
+            Lista todos os gêneros
+            </summary>
+            <returns>Retorna uma lista de gêneros</returns>
+        </member>
+        <member name="T:ProjetoFilmes.Repositories.UsuarioRepository">
+            <summary>
+            Repositório que implementa os métodos de usuários
+            </summary>
+        </member>
+        <member name="F:ProjetoFilmes.Repositories.UsuarioRepository.ctx">
+            <summary>
+            Instancia um novo contexto para utilizar os métodos do EF Core
+            </summary>
+        </member>
+        <member name="M:ProjetoFilmes.Repositories.UsuarioRepository.Login(System.String,System.String)">
+            <summary>
+            Valida o usuário
+            </summary>
+            <param name="email">E-mail do usuário</param>
+            <param name="senha">Senha do usuário</param>
+            <returns>Retorna um usuário autenticado</returns>
+        </member>
+        <member name="T:ProjetoFilmes.ViewModels.LoginViewModel">
+            <summary>
+            Classe responsável pelo modelo de login
+            </summary>
+        </member>
+    </members>
+</doc>
