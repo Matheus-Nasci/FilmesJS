@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navegacao-header">
+            <div>
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li>Perfil</li>
+                    <li>Filmes</li>
+                    <li>Gênero</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="conteudo">
+            <div>
+                <h1>Filmes</h1>
+                <img src="./img/cinema.png" alt="">
+            </div>
+            <div>
+                <table id="Filmes">
+                    <!-- <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Gênero</th>
+                        </tr>
+                    </thead>
+                    <tbody id="body-table">
+
+                    </tbody> -->
+                </table>
+            </div>
+        </div>
+
+        <button onclick="renderFilmes()">Listar Filmes</button>
+    </main>
+    <footer>
+        <div class="pezao">
+            <div>
+                <img src="./img/logonegativo.png" alt="">
+            </div>
+            <hr>
+            <div>
+
+                <p>Company Inc., 8901 Marmora Road, Glasgow, D04 89GR</p>
+
+                <p>Call us now toll free: (800)2345-6789</p>
+
+                <p>Customer support: support@demolink.org</p>
+
+                <p>Skype: sample-username</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="PROJ-sprint3.js" type="text/javascript"></script> -->
+
+    <script>
+        function renderFilmes() {
+            const table = document.getElementById('Filmes');
+            const url = 'http://localhost:5000/api/Filmes';
+
+            if (table.style.visibility === 'visible') {
+                table.style.visibility = 'hidden';
+            } else {
+                table.style.visibility = 'visible';
+            }
+
+            fetch(url)
+                .then((resp) => resp.json())
+                .then(function(data) {
+                    console.log(data)
+
+                    // return data.map(function (filme){
+                    //     let p = document.createElement('td');
+                    //     p.innerHTML = `${filme.titulo}`
+                    //     let p2 = document.createElement('td');
+                    //     p2.innerHTML = `${filme.idGeneroNavigation.nome}`
+                    //     table.appendChild(p)
+                    //     table.appendChild(p2)
+                    // })
+
+                    let tab =
+                        `<tr>
+                             <th>Filme</th>
+                             <th>Gênero</th>
+                         </tr>`;
+
+                    let table = data;
+                    for (let r of table) {
+                        tab +=
+                            `<tr>
+                             <td>${r.titulo}</td>
+                             <td>${r.idGeneroNavigation.nome}
+                        </tr>`;
+                    }
+
+                    document.getElementById('Filmes').innerHTML = tab;
+
+                })
+                .catch((error) => {
+                    console.log('ops' + error)
+                })
+        }
+    </script>
+
+</body>
+
+</html>

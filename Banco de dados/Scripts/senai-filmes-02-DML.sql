@@ -5,13 +5,15 @@ GO
 -- Insere dois gêneros na tabela Generos
 INSERT INTO Generos	(Nome)
 VALUES				('Ação')
-					,('Drama');
+					,('Drama')
+					,('Romance');
 GO
 
 -- Insere dois filmes na tabela Filmes
 INSERT INTO Filmes	(Titulo, IdGenero)
 VALUES				('A vida é bela', 2)
-					,('Rambo', 1);
+					,('Rambo', 1)
+					,('Sei lá', 3);
 GO
 
 -- Insere dois novos usuários
