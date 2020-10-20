@@ -1,0 +1,34 @@
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.deps.json
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.runtimeconfig.json
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.runtimeconfig.dev.json
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.dll
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.pdb
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.xml
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.csprojAssemblyReference.cache
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.csproj.CoreCompileInputs.cache
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.RazorAssemblyInfo.cache
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.RazorAssemblyInfo.cs
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.AssemblyInfoInputs.cache
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.AssemblyInfo.cs
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.RazorTargetAssemblyInfo.cache
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.dll
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.xml
+C:\Users\priscila.gigueira\Desktop\SENAI-ESTUDOS\backend\01.filmes\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.pdb
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.deps.json
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.runtimeconfig.json
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.runtimeconfig.dev.json
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.dll
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.pdb
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\ProjetoFilmes.xml
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.csprojAssemblyReference.cache
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.AssemblyInfoInputs.cache
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.AssemblyInfo.cs
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.RazorAssemblyInfo.cache
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.RazorAssemblyInfo.cs
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.RazorTargetAssemblyInfo.cache
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.dll
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.xml
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.pdb
+C:\Users\Matheus Nascimento\Desktop\FilmesJS\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\ProjetoFilmes.genruntimeconfig.cache
